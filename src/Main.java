@@ -15,8 +15,11 @@ public class Main{
          * 
          * 
         */
-        
+        MusicBox mbox2 = new MusicBox("S34TG65", 'N', "Raindrops", "Misty", 
+        "The path less traveled", "Country", "BZEE Music", "Rhythm Divine");
 
+        System.out.println("Now playing the song");
+        mbox.playSong(mbox2.getSongID(), mbox.getPremiumSong(), 1);
     }
 }
 
